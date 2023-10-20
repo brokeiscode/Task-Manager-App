@@ -1,0 +1,73 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  padding: 10rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #202142;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+form label,
+form p {
+  font-size: 3rem;
+}
+
+form input {
+  width: 25rem;
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 0.6rem 3rem;
+  background-color: wheat;
+  color: #000;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #f9c96e;
+  cursor: pointer;
+}
+
+.taskitem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+
+/* .taskitem input {
+  background-color: #202142;
+  border: 0;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+} */
+
+.select {
+  text-align: center;
+  width: 20rem;
+  padding: 0 auto;
+  height: 3rem;
+}
